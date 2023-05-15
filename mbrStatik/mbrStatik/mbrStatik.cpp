@@ -8,7 +8,7 @@ public:
 	int id;
 	string nama;
 
-	void setID();
+	void setID();			//method setid
 	void printAll();
 	mahasiswa(string pnama) :nama(pnama) { setID(); }
 };

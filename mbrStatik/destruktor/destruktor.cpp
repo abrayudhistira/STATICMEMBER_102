@@ -34,5 +34,6 @@ void angka::cetakData() {
 int main()
 {
     angka belajarcpp(3);      //constructor dipanggil
+    angka* ptrBelajarcpp = new angka(5);    //constructor dipanggil
 
 }

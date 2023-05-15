@@ -4,7 +4,7 @@ using namespace std;
 
 class mahasiswa {			//membuat class mahasiswa
 public:
-	static int nim;
+	static int nim;			//membuat member static
 	int id;
 	string nama;
 

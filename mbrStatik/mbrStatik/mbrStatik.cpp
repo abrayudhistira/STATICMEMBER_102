@@ -10,16 +10,29 @@ public:
 
 	void setID();			//method setid
 	void printAll();		//method print all
-	mahasiswa(string pnama) :nama(pnama) { setID(); }
+	mahasiswa(string pnama) :nama(pnama) { setID(); }		//
 };
 
-int mahasiswa::nim = 0;
+int mahasiswa::nim = 0;						//
 
-void mahasiswa::setID() {
-	id = ++nim;
-
+void mahasiswa::setID() {					//
+	id = ++nim;								//
 }
-int main()
-{
- 
+void mahasiswa::printAll() {				//
+	cout << "ID		= " << id <<endl;			//
+	cout << "Nama	= " << nama << endl;		//
+	cout << endl;
+}
+
+int main() {								// main program
+	mahasiswa mhs1("Lia Kurnia");			//
+	mahasiswa mhs2("Asroni");				//
+	mahasiswa mhs3("Andi Kurniawan");		//
+	mahasiswa mhs4("Joko Purbo");			//
+
+	mhs1.printAll();						//
+	mhs2.printAll();						//
+	mhs3.printAll();						//
+	mhs4.printAll();						//
+	return 0;
 }

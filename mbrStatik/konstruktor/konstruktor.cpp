@@ -38,7 +38,7 @@ void mahasiswa::cetak() {
     cout << endl << "Nim = " << nim << endl;
     cout << "Nama = " << nama << endl;
 }
-int main(){
+int main(){                     //main program
     mahasiswa mhs1;
     mahasiswa mhs2(20);
     mahasiswa mhs3("Indra");
